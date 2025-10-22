@@ -1,10 +1,12 @@
 import './Navbar.css';
+import { trackNavigation } from '../utils/analytics';
 
 function Navbar({ show, darkMode, toggleDarkMode }) {
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
+      trackNavigation(id);
     }
   };
 
