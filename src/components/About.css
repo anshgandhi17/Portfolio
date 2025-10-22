@@ -1,0 +1,26 @@
+.about-section {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+}
+
+.dark-mode .about-section {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.about-content {
+  max-width: 800px;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.about-content p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .about-content p {
+    font-size: 1rem;
+  }
+}
