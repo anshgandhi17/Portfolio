@@ -47,7 +47,7 @@ function SocialLinks() {
         </svg>
       </a>
       <a
-        href="/resume/resume.pdf"
+        href="/resume/resume-nov.pdf"
         target="_blank"
         rel="noopener noreferrer"
         className="social-link"
