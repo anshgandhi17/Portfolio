@@ -55,6 +55,16 @@ const projects = [
     githubLink: '',
     liveLink: '',
   },
+  {
+    id: 6,
+    title: 'AI Resume Analyzer',
+    description:
+      'A resume optimization tool leveraging AI to help users optimize their resumes for ATS systems and recruiters with intelligent feedback and suggestions.',
+    technologies: ['FastAPI', 'Next.js 14', 'LangChain', 'ChromaDB', 'Ollama'],
+    image: 'https://via.placeholder.com/600x400/9B59B6/ffffff?text=AI+Resume+Analyzer',
+    githubLink: '',
+    liveLink: '',
+  },
 ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
